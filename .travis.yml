@@ -10,10 +10,9 @@ cache:
 
 env:
     - PLATFORMIO_CI_SRC=src/main.ino
-    - PLATFORMIO_LIB_DIR=lib/
 
 install:
     - pip install -U platformio
 
 script:
-    - platformio ci --board=nanoatmega328 --board=uno
+    - platformio ci --lib="lib/TM1637" --board=nanoatmega328 --board=uno
