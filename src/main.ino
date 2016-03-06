@@ -16,7 +16,7 @@
 */
 
 #include <Arduino.h>
-#include <TM1637Display.h>
+#include <../lib/TM1637/src/TM1637Display.h>
 
 int realizarLeituras();
 void limparDisplay();
