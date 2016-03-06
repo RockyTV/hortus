@@ -10,6 +10,7 @@ cache:
 
 env:
     - PLATFORMIO_CI_SRC=src/main.ino
+    - PLATFORMIO_LIB_DIR=lib/
 
 install:
     - pip install -U platformio
