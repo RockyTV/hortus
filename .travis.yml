@@ -38,6 +38,7 @@ cache:
 
  script:
      - platformio run
+     - platformio ci --board=nanoatmega328
 
 
 #
