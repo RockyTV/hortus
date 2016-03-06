@@ -98,9 +98,9 @@ void loop() {
     if (ligarLeds) {
         for (int i = 0; i < 5; i++) {
             digitalWrite(BUZZER, HIGH);
-            delay(50);
+            delay(75);
             digitalWrite(BUZZER, LOW);
-            delay(50);
+            delay(75);
         }
         ligarLeds = false;
     }
